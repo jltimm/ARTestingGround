@@ -7,16 +7,17 @@
 //
 
 import UIKit
+import CoreLocation
+import ARCL
 import SceneKit
 import ARKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
-    
+    var sceneLocationView = SceneLocationView()
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Set the view's delegate
         sceneView.delegate = self
         

@@ -1,0 +1,6 @@
+framework module Pods_ARTestingGround {
+  umbrella header "Pods-ARTestingGround-umbrella.h"
+
+  export *
+  module * { export * }
+}
